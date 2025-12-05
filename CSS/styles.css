@@ -99,7 +99,7 @@ ul {
     background: #404BBF;
 }
 
-.visually-hidden {
+h2 {
     font-weight: 700;
     font-size: 36px;
     line-height: 40px;
@@ -110,20 +110,17 @@ ul {
     color: #2E2F42;
 }
 
-.feature-title .card-title {
+h3 {
     font-weight: 500;
     font-size: 20px;
-    /* line-height: 24px; */
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
 
-
-.feature-text .card-text {
+p {
     font-weight: 400;
     font-size: 16px;
-    /* line-height: 24px; */
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
@@ -131,15 +128,6 @@ ul {
 
 .team {
     background-color: #F4F4FD;
-}
-
-.team-title {
-    font-weight: 500;
-    font-size: 20px;
-    /* line-height: 24px; */
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2E2F42;
 }
 
 .footer {
