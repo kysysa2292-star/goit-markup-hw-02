@@ -16,10 +16,10 @@ ul {
 }
 
 .logo {
-    font-family: "Raleway";
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
@@ -44,6 +44,10 @@ ul {
     color: #404BBF;
 }
 
+.nav-page .link:focus {
+    color: #404bbf;
+}
+
 .nav-page .link:active {
     color: #404BBF;
     text-decoration: underline;
@@ -52,7 +56,12 @@ ul {
 .address .link {
     font-size: 16px;
     line-height: 1.5;
+    font-style: normal;
     color: #434455;
+}
+
+.address .link:focus {
+    color: #404bbf;
 }
 
 .address .link:hover {
@@ -66,13 +75,13 @@ ul {
 .main-page-title {
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #ffffff;
 }
 
-button {
+.button {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -82,21 +91,26 @@ button {
     cursor: pointer;
 }
 
-button:hover {
+.button:focus {
+    background-color: #404BBF;
+}
+
+.button:hover {
     background: #404BBF;
 }
 
-h2 {
+.visually-hidden {
     font-weight: 700;
     font-size: 36px;
     line-height: 40px;
-    line-height: 1.11111;
+    line-height: 1.11;
+    text-transform: capitalize;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2E2F42;
 }
 
-h3 {
+.feature-title .card-title {
     font-weight: 500;
     font-size: 20px;
     /* line-height: 24px; */
@@ -105,10 +119,10 @@ h3 {
     color: #2E2F42;
 }
 
-p {
+
+.feature-text .card-text {
     font-weight: 400;
     font-size: 16px;
-
     /* line-height: 24px; */
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -119,11 +133,20 @@ p {
     background-color: #F4F4FD;
 }
 
+.team-title {
+    font-weight: 500;
+    font-size: 20px;
+    /* line-height: 24px; */
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
 .footer {
     background-color: #2E2F42;
 }
 
-footer>p {
+.footer-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
