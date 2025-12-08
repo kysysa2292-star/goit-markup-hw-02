@@ -99,6 +99,7 @@ ul {
     background: #404BBF;
 }
 
+
 h2 {
     font-weight: 700;
     font-size: 36px;
@@ -128,6 +129,10 @@ p {
 
 .team {
     background-color: #F4F4FD;
+}
+
+.team-list {
+    background-color: #FFFFFF;
 }
 
 .footer {
